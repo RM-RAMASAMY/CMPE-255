@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+    <!-- add navigation above the header -->
+    <nav style="position: fixed; top: 0; left: 0; width: 100%; background-color: #13304f; padding: 10px; text-align: center;">
+        <a href="Ebay_com.html" style="color: white; text-decoration: none;">My Profile</a> | 
+        <a href="login_form.html" style="color: white; text-decoration: none;">Admin Login</a> | 
+        <a href="register_form.html" style="color: white; text-decoration: none;"> Contact Us</a>
+    </nav>
+    <!-- add a header on the top -->
+    <header style="position: fixed; top: 50px; left: 0; width: 100%; background-color: #f0f0f0; padding: 0; text-align: center; font-size: small;">
+        <h1>Welcome to Ebay.com</h1>
+    </header>
+
+   <!-- add stock values on a scrolling bar below the header  -->
+    
+    <marquee style="position: fixed; top: 110px; left: 0; width: 100%; background-color: #fff200; padding: 10px;">
+        Sample Offers: Buy one get one free on select items! | 20% off on electronics | Clearance sale up to 50% off | Free shipping on orders over $50
+    </marquee>
+    <div class="login-container" style="background-color: #abdbfa; width: 300px; padding: 10px; text-align: center;">
+        <h2>Login</h2>
+        <form action="login.php" method="post" onsubmit="window.location.href='home_page.html'; return false;">
+            <input type="text" name="username" placeholder="Username" required style="width: 280px; margin: 10px 0; align-items: center;">
+            <input type="password" name="password" placeholder="Password" required style="width: 280px; margin: 10px 0; align-items: center; ">
+            <button type="submit" style="width: auto; margin: 10px 0;">Login</button>
+        </form>
+        <br>
+        <div style="top: 700px; padding: 10px; text-align: center;">
+            Don't have an account? <br><br><a href="login_form.html">Create Account</a>
+        </div>
+        <br>      
+    </div>    
+    
+    
+    <!-- add a footer on the bottom -->
+    <footer style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f0f0f0; padding: 10px; text-align: center;">
+        &copy; 2020 Ebay.com. All rights reserved. | Disclaimer: This is a project for educational purpose only.    
+    </footer>
+    
+     
+</body>
+</html>

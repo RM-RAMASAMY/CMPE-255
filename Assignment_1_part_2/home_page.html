@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBay Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+        }
+        header {
+            background-color: #f5f5f5;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .search-bar input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+        .search-bar button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #0073e6;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #004cff;
+        }
+        .categories div {
+            text-align: center;
+        }
+        .categories img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+        }
+        .gallery-item {
+            border: 1px solid #00000026;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Deals</a>
+            <a href="contact.html">Contact</a>
+            <a href="my_profile.html">Profile</a>
+        </nav>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for anything">
+        <button>Search</button>
+    </div>
+    <div class="categories">
+        <div>
+            <img src="https://via.placeholder.com/100" alt="Category 1">
+            <p>Electronics</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/100" alt="Category 2">
+            <p>Fashion</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/100" alt="Category 3">
+            <p>Home & Garden</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/100" alt="Category 4">
+            <p>Sports</p>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200" alt="Product 1">
+            <p>Product 1</p>
+            <p>$10.00</p>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200" alt="Product 2">
+            <p>Product 2</p>
+            <p>$20.00</p>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200" alt="Product 3">
+            <p>Product 3</p>
+            <p>$30.00</p>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200" alt="Product 4">
+            <p>Product 4</p>
+            <p>$40.00</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/200" alt="Product 5">
+        <p>Product 5</p>
+        <p>$50.00</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/200" alt="Product 6">
+        <p>Product 6</p>
+        <p>$60.00</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/200" alt="Product 7">
+        <p>Product 7</p>
+        <p>$70.00</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/200" alt="Product 8">
+        <p>Product 8</p>
+        <p>$80.00</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/200" alt="Product 9">
+        <p>Product 9</p>
+        <p>$80.00</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/200" alt="Product 10">
+        <p>Product 10</p>
+        <p>$80.00</p>
+    </div>
+</div>
+    <footer>
+        <p>&copy; 2021 eBay Clone</p>
+    </footer>
+
+    
+</body>
+</html>
