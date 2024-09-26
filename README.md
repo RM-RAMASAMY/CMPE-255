@@ -14,3 +14,4 @@ from Kaggle data sets (link: https://www.kaggle.com/datasets/abdullah0a/urban-ai
 for the second part of the assignment, the opening page is Ebay_com.html
 screen shots include:
 ![alt text](image.png)
+![alt text](<Screenshot (264).png>) ![alt text](<Screenshot (263).png>) ![alt text](<Screenshot (262).png>) ![alt text](<Screenshot (261).png>) ![alt text](<Screenshot (260).png>)
