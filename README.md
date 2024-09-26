@@ -12,3 +12,5 @@ health risk index predictio, the data set used is Urban Air Quality and Health I
 from Kaggle data sets (link: https://www.kaggle.com/datasets/abdullah0a/urban-air-quality-and-health-impact-dataset)
 
 for the second part of the assignment, the opening page is Ebay_com.html
+screen shots include:
+![alt text](image.png)
